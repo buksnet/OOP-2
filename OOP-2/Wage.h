@@ -8,8 +8,8 @@ private:
 	int prize_percent;
 public:
 	Wage();
-	Wage(std::string name, double wage, int prize_percent);
-	Wage(Wage& T);
+	Wage(std::string, double, int);
+	Wage(Wage&);
 	~Wage();
 
 	std::string getName();
